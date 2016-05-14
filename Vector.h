@@ -1,5 +1,3 @@
-#ifndef matrices_Vector_h
-#define matrices_Vector_h
 #include "Matrix.h"
 
 using namespace std;
@@ -117,5 +115,3 @@ double Vector::Gety()
 {
     return a[0][1];
 }
-
-#endif
