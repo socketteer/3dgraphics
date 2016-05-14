@@ -1,7 +1,3 @@
-
-#ifndef Matrix_Visualization__Vector_h
-#define Matrix_Visualization__Vector_h
-
 using namespace std;
 
 class Vector_3 : public Matrix
@@ -266,6 +262,3 @@ double Vector_3::Getz()
 {
     return a[0][2];
 }
-
-
-#endif
