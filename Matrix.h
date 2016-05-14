@@ -1,5 +1,5 @@
-#ifndef determinant_Matrix_h
-#define determinant_Matrix_h
+//This is just a bunch of matrix operations in case I need them in the future 
+
 #include <iostream>
 #include <cmath>
 
@@ -356,5 +356,3 @@ double Matrix::mDeterminant(double **b, int size)
     return det_val;
 }
 
-
-#endif
