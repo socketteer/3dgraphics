@@ -1,13 +1,3 @@
-//
-//  Shape.h
-//  Matrix Visualization
-//
-//  Created by Laria R on 10/16/15.
-//  Copyright (c) 2015 Laria R. All rights reserved.
-//
-
-#ifndef Matrix_Visualization_Shape_h
-#define Matrix_Visualization_Shape_h
 #include"bitmap_image.h"
 #include "3Vector.h"
 
@@ -115,4 +105,3 @@ void Shape::Print()
     }
 }
 
-#endif
