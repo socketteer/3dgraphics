@@ -133,20 +133,6 @@ void ballPath(int ballSize, int initial_x, int initial_y, int initial_z, int x, 
 int main()
 {
     
-    
-    /*Space newspace;
-
-    paraFunction(newspace);
-    
-    newspace.SaveImage("Cubes_wireframe");
-     */
-    
-    /*int corner[3] = {0,100,200};
-    Shape newcube(Cube(corner,100),8);
-    drawCube(newcube.GetPoints(), newspace);
-    drawCube(newcube.Rotate_X(40).Translate(-100, -200, 30).GetPoints(), newspace);
-    */
-   
     /// LIGHTING TEST
     Space newspace;
     Lightsource light(0,200,0);
