@@ -1,14 +1,3 @@
-//
-//  Surface.h
-//  Matrix Visualization
-//
-//  Created by Laria R on 5/12/16.
-//  Copyright (c) 2016 Laria R. All rights reserved.
-//
-
-#ifndef Matrix_Visualization_Surface_h
-#define Matrix_Visualization_Surface_h
-
 #include "3Vector.h"
 #include <cmath>
 
@@ -204,12 +193,7 @@ double Surface::Brightness(Lightsource light)
     double u1 = light.get_i();
     double u2 = light.get_j();
     double u3 = light.get_k();
-    
-    /*double val = (a*u1+b*u2+c*u3) / (sqrt(a*a+b*b+c*c) * sqrt(u1*u1+u2*u2+u3*u3));
-     if (val >=0)
-     return val;
-     else
-     return 0;*/
+
     
     return abs(a*u1+b*u2+c*u3) / (sqrt(a*a+b*b+c*c) * sqrt(u1*u1+u2*u2+u3*u3));
     
@@ -276,10 +260,6 @@ Surface Surface::Castshadow(Surface s, Lightsource light)
     double t3 = (d - a*i - b*j - c*k) / (a*u3 + b*v3 + c*w3);
     Vector_3 shadowpoint3(i + u3*t3, j + v3*t3, k + w3*t3);
     
-    /*cout <<"shadowcoordinates1: " << endl << shadowpoint1.Getx() << endl << shadowpoint1.Gety() << endl << shadowpoint1.Getz() << endl << endl;
-    cout <<"shadowcoordinates2: " << endl << shadowpoint2.Getx() << endl << shadowpoint2.Gety() << endl << shadowpoint2.Getz() << endl << endl;
-    cout <<"shadowcoordinates3: " << endl << shadowpoint3.Getx() << endl << shadowpoint3.Gety() << endl << shadowpoint3.Getz() << endl << endl;*/
-    
     vector<Vector_3> shadowpoints;
     shadowpoints.push_back(shadowpoint1);
     shadowpoints.push_back(shadowpoint2);
@@ -290,6 +270,3 @@ Surface Surface::Castshadow(Surface s, Lightsource light)
     return shadow;
 }
 
-
-
-#endif

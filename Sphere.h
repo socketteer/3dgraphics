@@ -1,13 +1,3 @@
-//
-//  Sphere.h
-//  Matrix Visualization
-//
-//  Created by Laria R on 10/21/15.
-//  Copyright (c) 2015 Laria R. All rights reserved.
-//
-
-#ifndef Matrix_Visualization_Sphere_h
-#define Matrix_Visualization_Sphere_h
 #include "3Vector.h"
 #include <cmath>
 
@@ -60,4 +50,3 @@ public:
     
 };
 
-#endif

@@ -1,6 +1,3 @@
-#ifndef Matrix_Visualization_Lightsource_h
-#define Matrix_Visualization_Lightsource_h
-
 using namespace std;
 
 class Lightsource
@@ -17,5 +14,3 @@ public:
     {return k;}
 };
 
-
-#endif

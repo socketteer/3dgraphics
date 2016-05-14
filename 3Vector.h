@@ -1,14 +1,3 @@
-//
-//  3Vector.h
-//  Matrix Visualization
-//
-//  Created by Laria R on 10/15/15.
-//  Copyright (c) 2015 Laria R. All rights reserved.
-//
-
-#ifndef Matrix_Visualization__Vector_h
-#define Matrix_Visualization__Vector_h
-
 using namespace std;
 
 class Vector_3 : public Matrix
@@ -273,6 +262,3 @@ double Vector_3::Getz()
 {
     return a[0][2];
 }
-
-
-#endif

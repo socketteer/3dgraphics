@@ -1,6 +1,3 @@
-#ifndef matrices_Space_h
-#define matrices_Space_h
-
 #include<cmath>
 
 #include"bitmap_image.h"
@@ -57,14 +54,12 @@ void Space::MapTo(Vector_3 vector, int r = 255, int g = 255, int b = 255)
     
     if(newx < SCALE && newx > 0 && newy < SCALE && newy > 0)
     {
-        //(*i).set_pixel(newx, newy, r, g, b);
 
         if(map[newx][newy] <= z) //checking to make sure pixel isn't "blocked" by closer pixel
         {
             (*i).set_pixel(newx, newy, r, g, b);
             map[newx][newy] = z;
         }
-        //(*i).set_pixel(newx, newy, Red(x,y,z), Green(x,y,z), Blue(x,y,z));
 
     }
     
@@ -147,7 +142,6 @@ void Space::MapToFloor(Vector_3 vector)
 
 void Space::SaveImage(string fname)
 {
-    (*i).save_image("/Users/laria/Desktop/generated_images/" + fname + ".bmp");
+    (*i).save_image([[DIRECTORY]] + fname + ".bmp"); 
 }
 
-#endif
