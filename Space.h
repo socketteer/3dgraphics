@@ -142,6 +142,6 @@ void Space::MapToFloor(Vector_3 vector)
 
 void Space::SaveImage(string fname)
 {
-    (*i).save_image("/Users/laria/Desktop/generated_images/" + fname + ".bmp");
+    (*i).save_image([[DIRECTORY]] + fname + ".bmp"); 
 }
 
