@@ -47,7 +47,7 @@ void drawLineSegment(Vector_3 p1, Vector_3 p2, Space &newspace, int red = 255, i
     
 }
 
-vector<Vector_3> Cube(int corner[3], int length)
+/*vector<Vector_3> Cube(int corner[3], int length)
 {
     vector<Vector_3> points;
     
@@ -61,7 +61,7 @@ vector<Vector_3> Cube(int corner[3], int length)
     points.push_back(*new Vector_3(corner[0]+length,corner[1]+length,corner[2]+length));
 
     return points;
-}
+}*/
 
 vector<Vector_3> Cuboid(int corner[3], int length, int height, int depth)
 {
