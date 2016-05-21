@@ -1,14 +1,3 @@
-//
-//  DynamicShape.h
-//  Matrix Visualization
-//
-//  Created by Laria R on 5/20/16.
-//  Copyright (c) 2016 Laria R. All rights reserved.
-//
-
-#ifndef Matrix_Visualization_DynamicShape_h
-#define Matrix_Visualization_DynamicShape_h
-
 #include "3Vector.h"
 #include <cmath>
 #include "Pointnode.h"
@@ -23,7 +12,6 @@ public:
     DynamicShape(int x = 0, int y = 0, int z = 0, int s = 1);
     void drawline(Pointnode p1, Pointnode p2, Space &newspace, int red = 255, int green = 255, int blue = 255);
     void connectlines(Space &newspace);
-    //void setcoordinates(int x, int y, int z);
     void movevertex(int x, int y, int z, int v);
 protected:
     vector<Pointnode *> points;
@@ -39,14 +27,6 @@ DynamicShape::DynamicShape(int x, int y, int z, int s)
     {
         points.push_back(new Pointnode);
     }
-    
-    /*
-    int i = 0;
-    for(i; i < size-1; i++)
-    {
-        points[i]->Insert(points[i+1]);
-    }
-    points[i]->Insert(points[0]);*/
     
 }
 
