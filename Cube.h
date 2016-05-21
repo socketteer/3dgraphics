@@ -1,14 +1,3 @@
-//
-//  cube.h
-//  Matrix Visualization
-//
-//  Created by Laria R on 5/20/16.
-//  Copyright (c) 2016 Laria R. All rights reserved.
-//
-
-#ifndef Matrix_Visualization_cube_h
-#define Matrix_Visualization_cube_h
-
 #include "DynamicShape.h"
 
 #include "3Vector.h"
@@ -60,7 +49,3 @@ public:
     }
 
 };
-
-
-
-#endif
