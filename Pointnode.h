@@ -1,14 +1,3 @@
-//
-//  pointnode.h
-//  Matrix Visualization
-//
-//  Created by Laria R on 5/20/16.
-//  Copyright (c) 2016 Laria R. All rights reserved.
-//
-
-#ifndef Matrix_Visualization_pointnode_h
-#define Matrix_Visualization_pointnode_h
-
 #include "3Vector.h"
 #include <cmath>
 #include <vector>
