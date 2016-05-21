@@ -10,6 +10,9 @@
 #include "Sphere.h"
 #include "Lightsource.h"
 #include "Surface.h"
+#include "DynamicShape.h"
+#include "Pointnode.h"
+#include "Cube.h"
 
 using namespace std;
 
