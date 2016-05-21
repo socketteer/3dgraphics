@@ -90,6 +90,3 @@ int Pointnode::setz(int n)
     z = n;
 }
 
-
-
-#endif
