@@ -2,7 +2,6 @@
 #include <cmath>
 #include "Pointnode.h"
 #include "Space.h"
-#include <iostream>
 
 using namespace std;
 
@@ -80,5 +79,3 @@ void DynamicShape::drawline(Pointnode p1, Pointnode p2, Space &newspace, int red
     }
     
 }
-
-#endif
